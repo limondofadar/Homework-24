@@ -1,0 +1,422 @@
+/* all common css  */
+* {
+    outline: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* all common css  */
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    padding-left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 24px;
+    transition: .5s;
+}
+
+
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #c7b299;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .5s;
+}
+
+.add_class {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+
+/* banar part start  */
+#banar_part {
+    background: url(../images/banar_part.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.banar_overly {
+    padding: 380px 0;
+    background: rgba(17, 17, 17, 0.701);
+
+
+}
+
+
+.banar_text_part h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.banar_text_part h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    padding: 24px 0 30px;
+
+}
+
+.banar_text_part p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 596px;
+    margin: 0 auto;
+}
+
+
+.banar_button a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 20px 40px 18px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 55px;
+
+}
+
+/* service part end */
+#service_part_start {
+    padding: 90px 0 85px;
+
+}
+
+
+.service_item {
+    cursor: pointer;
+}
+
+.service_item:hover .service_icon i {
+    color: #c7b299;
+}
+
+.service_item:hover .service_text h2 {
+    color: #c7b299;
+}
+
+.service_item:hover .service_text p::before {
+    background: #c7b299;
+    width: 100px;
+}
+
+
+
+
+
+.service_item .service_icon i {
+    font-size: 50px;
+    color: #555555;
+    transition: .5s;
+}
+
+
+.service_item .service_text h2 {
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    font-size: 600;
+    font-size: 22px;
+    padding: 30px 0;
+    transition: .5s;
+}
+
+.service_item .service_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 24px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.service_item .service_text p::before {
+    position: absolute;
+    content: "";
+    background: #f1eee9;
+    width: 70px;
+    height: 3px;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: .5s;
+}
+
+
+/* service part start  */
+
+
+/* idea part end */
+#idea_part {
+    padding-top: 85px;
+    background: #fbfaf8;
+}
+
+.idea_text_part h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+
+}
+
+.idea_text_part p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding: 30px 0 40px;
+    line-height: 28px;
+    width: 770px;
+    margin: 0 auto;
+
+}
+
+
+.purchase_part {
+    padding: 50px 0;
+    background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+
+.purchase_text_left h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.purchase_text_left span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #c7b299;
+}
+
+
+.purchase_text_left p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #615855;
+    padding-top: 10px;
+}
+
+.purchase_btn a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 20px 18px 20px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+}
+
+/* our soft skill part  */
+#our_soft_skill_part {
+    padding: 85px 0;
+}
+
+
+.our_soft_slikk_text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.our_soft_slikk_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    line-height: 28px;
+    width: 778px;
+    margin: 0 auto;
+}
+
+
+.mexitup_button button {
+    padding: 10px 25px;
+    margin-left: 10px;
+    color: #8c8c8c;
+    border: none;
+    background: transparent;
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    margin-bottom: 42px;
+}
+
+.mexitup_button button:hover {
+    background: #998675;
+    color: #fff;
+    border: 2px solid #998675;
+}
+
+
+/* card image part  */
+
+
+.card_part_images {
+    position: relative;
+   
+}
+
+.card_part_images_overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.701);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+
+}
+
+
+.icon_part_for_card a i {
+    margin-left: 30px;
+    font-size: 30px;
+
+
+}
+
+.icon_part_for_card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.colorExtra {
+    color: #c7b299;
+}
+
+
+.ml {
+    margin-left: 0 !important;
+}
+
+.card_images_background {
+    padding: 32px;
+    background: #fbfaf8;
+    position: relative;
+    transition: .4s;
+}
+
+.card_images_background h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #c7b299;
+
+    margin-bottom: 15px;
+    transition: .4s;
+}
+
+.card_images_background p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #d1d1d1;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+}
+
+
+.shape_one {
+    width: 50px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 30px solid #fbfaf8;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    transition: .4s;
+}
+/* hover part  */
+.card_part_main{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.card_part_main:hover .card_part_images_overly{
+   visibility: visible;
+   opacity: 1;
+}
+.card_part_main:hover .shape_one{
+
+    border-bottom: 30px solid #362f2d;
+}
+.card_part_main:hover .card_images_background{
+
+   background:  #362f2d;
+}
+.card_part_main:hover .card_images_background h2{
+color: #fff;
+  
+}
+.card_part_main:hover .card_images_background p{
+color:#c7b299;
+ 
+}
+
+.card_button_part a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 40px 20px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+}
+/* our soft skill end */
+/* idea part start  */
+/* banar part end */
+/* banar part start  */
+/* banar part end */
